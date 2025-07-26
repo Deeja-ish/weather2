@@ -1,7 +1,7 @@
 
 function getWeather(cityInput) {
 
-let apiKey= "9ca9153f5a5d4961bb2170724251005";
+let apiKey= "8abcca59e0e54e69a53183749252006";
 let apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityInput}&aqi=no`
 
 axios.get(apiUrl).then(showWeather);
